@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: gray;
+
+    h1{
+        color: Black;
+        text-align: center;
+    }
+}
+.borda{
+    width: 100%;
+    height: 1vh;
+    background-color: black;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+span{
+    text-align: center;
+}
+
+.atendente{
+    text-align: center;
+    background-color: lightgreen;
+    font-weight: bold;
+}
+.cliente{
+    text-align: center;
+    background-color: yellow;
+    font-weight: bold;
+}
+.observacao{
+    background-color: lightblue;
+    font-weight: bold;
+}
+.regras{
+    background-color: gray;
+    width: 100%;
+
+    h2{
+        color: red;
+        font-weight: bold;
+    }
+    ul{
+        padding: 0 0 0 20px;
+        font-weight: bold;
+    }
+    p{
+        font-weight: bold;
+        color: blue;
+    }
+}
