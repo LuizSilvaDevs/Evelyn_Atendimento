@@ -57,6 +57,10 @@ span{
 }
 .regras{
     background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 
     h2{
